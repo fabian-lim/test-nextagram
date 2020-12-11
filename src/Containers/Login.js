@@ -5,7 +5,6 @@ const Login = ({toggleIsLogin, primaryBtnAction, toggle}) => {
     const [username, setUsername] = useState("")
     const [password, setPassword] = useState("")
 
-
     return <div>
         <Form>
             <FormGroup>
